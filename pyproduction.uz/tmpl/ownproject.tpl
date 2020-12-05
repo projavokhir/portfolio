@@ -1,0 +1,1 @@
+ <li><a href="%link%" target="_blank"><span class="icon wow fadeIn fast delay-4ms" data-anim="fadeIn"><img src="%img_url%"></span></a></li>

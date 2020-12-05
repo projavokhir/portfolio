@@ -1,0 +1,1 @@
+<header class="header-v3"><a href="/" class="logo">%logo_svg%</a></header>

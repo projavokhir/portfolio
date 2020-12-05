@@ -1,0 +1,15 @@
+.feed{
+	width:100%;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content:flex-start;
+	align-items:flex-start;
+	flex-flow:row wrap;
+}
+
+.feed a{
+	flex:1 0 25%;
+	width:25%;
+}

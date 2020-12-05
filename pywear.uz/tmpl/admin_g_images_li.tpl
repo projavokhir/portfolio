@@ -1,0 +1,1 @@
+<li><a href="/admin/g_edit/%id%"><img src="%image_link%"></a></li>

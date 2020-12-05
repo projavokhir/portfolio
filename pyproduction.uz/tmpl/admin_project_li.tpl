@@ -1,0 +1,1 @@
+<li class="service"><a href="/admin/project/%id%">%desc%</a></li><br />

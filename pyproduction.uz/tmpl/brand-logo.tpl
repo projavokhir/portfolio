@@ -1,0 +1,1 @@
+<li><span class="icon wow fadeIn fast delay-4ms" data-anim="fadeIn"><img src="%img_link%"></span></li>

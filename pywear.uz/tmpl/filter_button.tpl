@@ -1,0 +1,1 @@
+<button class="stext-107 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5 %hover%" data-filter=".%filter%">%filter_name%</button>

@@ -1,0 +1,1 @@
+<div class="username">Привет, %username% | <a href="/admin/logout">Выход</a></div>

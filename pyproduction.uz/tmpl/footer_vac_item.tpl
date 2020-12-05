@@ -1,0 +1,1 @@
+<li><a href="/about#vacancy-block">%name%</a></li>

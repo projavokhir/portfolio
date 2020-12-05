@@ -1,0 +1,1 @@
+<div class="item-slick1 bg-overlay1" style="background-image: url(%img_link%);"></div>

@@ -1,0 +1,1 @@
+<link rel="stylesheet" href="%address%%main_dir%css/style.css" >

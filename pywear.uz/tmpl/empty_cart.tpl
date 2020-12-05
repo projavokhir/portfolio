@@ -1,0 +1,1 @@
+<div class="no_products">Корзина пуста!</div>

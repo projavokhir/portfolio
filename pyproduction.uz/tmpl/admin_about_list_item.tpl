@@ -1,0 +1,1 @@
+<li class="service"><a href="/admin/%controller%/%id%">%name%</a></li>

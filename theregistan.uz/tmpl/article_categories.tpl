@@ -1,0 +1,1 @@
+<span class="blog-image-filter">%category%</span>

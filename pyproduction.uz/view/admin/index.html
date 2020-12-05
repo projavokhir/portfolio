@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>PY MAG</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="js/functions.js"></script>
+</head>
+<body>
+
+<div id="mm">
+	<header id="head-blog">
+
+		<div class="logo-main"><a href="index.html"><img src="img/logo.svg"></a></div>
+
+
+</header>
+
+<main id="main-content">
+
+	<div class="main-container">
+	
+	<h2 class="main-header">Добавить пост</h2>
+
+
+		<nav class="navbar">
+			<ul>
+				<li><a href="#">Добавить посты</a></li>
+				<li><a href="#">Изменить посты</a></li>
+				<li><a href="#">Удалить посты</a></li>
+			</ul>
+		</nav>
+
+	<div class="add-post">
+
+
+		<form action="" method="POST" id="post-add-form">
+			<div class="form-wr">
+				<label for="tt">Заголовок</label><br />
+				<input type="text" name="title" id="tt" />
+			</div>
+
+		<div class="form-wr">
+				<label for="img_c">Изображение для обложки поста</label><br />
+				<input type="cover_image" name="post_cover" id="img_c" />
+		</div>
+
+		<div class="form-wr">
+				<label>Категория</label><br />
+				<select name="category" id="post-category" size="1">
+					<option value="lyudi">Люди</option>
+					<option value="lyudi">Люди</option>
+					<option value="lyudi">Люди</option>
+					<option value="lyudi">Люди</option>
+				</select>
+			</div>
+
+			<div id="tiny-wr">
+				<label for="tinyeditor">Полный текст</label><br /><br />
+				<textarea name="full_text" id="tinyeditor"></textarea>
+			</div>
+
+			<div id="submit-wr">
+				<input type="submit" value="Добавить пост" id="submit">
+			</div>
+
+		</form>
+
+	</div>
+
+	</div>
+
+
+</main>
+
+
+</div>
+
+<script type="text/javascript" src="js/tinymce/tinymce.min.js"></script>
+
+<script type="text/javascript">
+	
+	tinymce.init({
+
+    selector:'#tinyeditor',
+    height: 200,
+    width: 700,
+
+    plugins: [
+        "advlist autolink lists image charmap print preview hr anchor pagebreak",
+        "searchreplace wordcount visualblocks visualchars code fullscreen",
+        "insertdatetime media nonbreaking save table contextmenu directionality",
+        "emoticons template paste textcolor colorpicker textpattern imagetools" 
+    ],
+
+    language: 'ru',
+
+    toolbar1: "insertfile undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image",
+    toolbar2: "preview media | forecolor backcolor emoticons"
+
+});
+
+</script>
+
+</body>
+</html>

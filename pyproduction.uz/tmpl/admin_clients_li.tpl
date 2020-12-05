@@ -1,0 +1,1 @@
+<li class="service"><a href="/admin/client/%id%"><img src="%link%"></a></li>

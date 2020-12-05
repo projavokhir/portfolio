@@ -1,0 +1,1 @@
+<li><a href="/article/cat/%link%">%name%</a></li>
